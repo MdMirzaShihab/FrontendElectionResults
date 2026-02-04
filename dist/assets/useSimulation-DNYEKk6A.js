@@ -1,0 +1,1 @@
+import{r as a}from"./vendor-react-D5zly3OG.js";import{u as s}from"./index-C_gzxXLR.js";import{s as u}from"./formatters-DXobJT5u.js";function c(e){const n=s(t=>t.simulationEnabled),r=a.useRef(null);a.useEffect(()=>{if(!n){clearInterval(r.current);return}return r.current=setInterval(()=>{const t=u();t.length>0&&e&&e(t)},3e4),()=>clearInterval(r.current)},[n,e])}export{c as u};
